@@ -6,8 +6,8 @@ TARGET = app
 
 all: $(TARGET)
 
-$(TARGET): bin/main.c
-	$(CC) $(CFLAGS) bin/main.c $(LDFLAGS) -o $(TARGET)
+$(TARGET): src/main.c
+	$(CC) $(CFLAGS) src/main.c $(LDFLAGS) -o $(TARGET)
 
 clean:
 	rm -f $(TARGET)
