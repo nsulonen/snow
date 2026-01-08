@@ -11,3 +11,6 @@ devenv.local.yaml
 
 # app
 app
+
+# gemini
+.gemini
