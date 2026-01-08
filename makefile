@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -std=c99 -Wall -Werror
+CFLAGS = -std=c17-Wall -Wextra -Werror
 LDFLAGS = -lraylib
 
 TARGET = app
